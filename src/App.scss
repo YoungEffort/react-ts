@@ -1,0 +1,20 @@
+body {
+    font: {
+        color: #fff;
+    }
+    background: {
+        image:url(./assets/img/bg.jpg);
+        size:100%;
+        // repeat:no-repeat;
+    }
+}
+
+a {
+    /* 去掉下划线 */
+    text-decoration: none;
+    color:#fff;
+    &:hover{
+        color:#61dafb;
+        cursor: pointer;
+    }
+}
