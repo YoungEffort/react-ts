@@ -4,8 +4,9 @@ import './App.scss';
 
 import About from './components/About/about'
 import Diary from './components/Diary/diary'
+import Footer from './components/Footer/footer'
 import Header from './components/header/header'
-import Home from './components/Home/home';
+import Home from './components/Home/home'
 import Message from './components/Message/message'
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
                                 </div>
                             </div>
                         </div>
+                        <Footer/>
                     </div>
                 </Router>
             </div>
