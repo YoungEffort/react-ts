@@ -8,6 +8,7 @@ import Footer from './components/Footer/footer'
 import Header from './components/header/header'
 import Home from './components/Home/home'
 import Message from './components/Message/message'
+import Sidebar from './components/Sidebar/sidebar'
 
 class App extends React.Component {
     public render() {
@@ -25,7 +26,7 @@ class App extends React.Component {
                                     <Route path='/about' component={About}/>
                                 </div>
                                 <div className="section-body-layout-right">
-                                    fdsfsfsf
+                                    <Sidebar/>
                                 </div>
                             </div>
                         </div>

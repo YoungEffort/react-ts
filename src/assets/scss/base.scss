@@ -1,4 +1,49 @@
 $bodyWidth:66%;
-.body-base {
-    
+.body-base {}
+
+// base margin
+.mgb-20 {
+    margin-bottom: 20px;
+}
+
+// base padding
+.pd-24 {
+    padding: 24px;
+}
+
+// base background-color
+.c1 {
+    background: rgb(135, 208, 104);
+}
+
+.c2 {
+    background: rgb(254, 85, 0);
+}
+
+.c3 {
+    background: rgb(16, 142, 233);
+}
+
+.c4 {
+    background: rgb(248, 167, 42);
+}
+
+.c5 {
+    background: rgb(45, 183, 245);
+}
+
+.c6 {
+    background: #0D6CCE;
+}
+
+.c7 {
+    background: #CE790D;
+}
+
+.c8 {
+    background: #E012E3;
+}
+
+.c9 {
+    background: #E3127C;
 }
