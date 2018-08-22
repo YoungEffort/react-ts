@@ -69,6 +69,18 @@
             background-color: #333;
             color: #fff;
         }
+        &>.tubiao1:hover~#div1{
+            display:block;
+        }
+        &>.tubiao2:hover~#div2{
+            display:block;
+        }
+        &>.tubiao3:hover~#div3{
+            display:block;
+        }
+        &>.tubiao4:hover~#div4{
+            display:block;
+        }
         &>.biaoqian {
             &>span {
                 margin-right: 10px;
@@ -88,13 +100,11 @@
     }
     .follow {
         position: relative;
-        .tip1{
-            position: relative;
-        }
         .tip {
             position: absolute;
             top: 0;
             left: 0;
+            display:none;
             .arrow {
                 width: 0;
                 border-width: 5px 5px 0;
@@ -102,8 +112,8 @@
                 border-style: solid;
                 border-top-color: rgba(0, 0, 0, .75);
                 position: absolute;
-                top:0;
-                left:0;
+                top:33px;
+                left:36px;
             }
             &-font {
                 padding: 6px 8px;
@@ -113,7 +123,11 @@
                 background-color: rgba(0, 0, 0, .75);
                 border-radius: 4px;
                 box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+                width:80px;
                 min-height: 32px;
+                position: absolute;
+                top:0;
+                left:0;
             }
         }
     }

@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import imgbg from '../../assets/img/sidebarbg.jpg';
 import imglogo from '../../assets/img/sidebarlogo.jpg';
+import imgwx from '../../assets/img/wx.png';
 import './sidebar.scss';
 
 class Sidebar extends React.Component {
@@ -36,23 +37,35 @@ class Sidebar extends React.Component {
                         <div>FOLLOW ME</div>
                     </div>
                     <div className="sidebar-body pd-24">
-                        <span className="tubiao">
+                        <span className="tubiao tubiao1">
                             <i className="icon iconfont icon-gerenjianli" />
                         </span>
-                        <span className="tubiao">
+                        <span className="tubiao tubiao2">
                             <i className="icon iconfont icon-github" />
                         </span>
-                        <span className="tubiao">
+                        <span className="tubiao tubiao3">
                             <i className="icon iconfont icon-weixin" />
                         </span>
-                        <span className="tubiao">
+                        <span className="tubiao tubiao4">
                             <i className="icon iconfont icon-csdn" />
                         </span>
-                    </div>
-                    <div className="tip1">
-                        <div className="tip">
+                        <div className="tip" style={{ top: '40px', left: '8px' }} id="div1">
                             <div className="arrow" />
                             <div className="tip-font">个人简历</div>
+                        </div>
+                        <div className="tip" style={{ top: '40px', left: '68px' }}  id="div2">
+                            <div className="arrow" />
+                            <div className="tip-font">github</div>
+                        </div>
+                        <div className="tip" style={{ top: '40px', left: '128px' }}  id="div3">
+                            <div className="arrow" />
+                            <div className="tip-font" style={{ width: '115px', top: '-83px', left: '-20px' }}>
+                                <img src={imgwx} alt="" style={{ width: '100px', height: '100px' }} />
+                            </div>
+                        </div>
+                        <div className="tip" style={{ top: '40px', left: '188px' }}  id="div4">
+                            <div className="arrow" />
+                            <div className="tip-font">csdn</div>
                         </div>
                     </div>
                 </div>
