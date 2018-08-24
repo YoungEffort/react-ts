@@ -13,6 +13,9 @@ class Sidebar extends React.Component {
                 <a href="#">{arr}</a>
             </li>
         )
+        function jumpGithub(){
+            location.href="https://github.com/YoungEffort";
+        }
         return (
             <div className="sidebar">
                 <div className="mgb-20">
@@ -40,7 +43,7 @@ class Sidebar extends React.Component {
                         <span className="tubiao tubiao1">
                             <i className="icon iconfont icon-gerenjianli" />
                         </span>
-                        <span className="tubiao tubiao2">
+                        <span className="tubiao tubiao2" onClick={jumpGithub}>
                             <i className="icon iconfont icon-github" />
                         </span>
                         <span className="tubiao tubiao3">
@@ -53,17 +56,19 @@ class Sidebar extends React.Component {
                             <div className="arrow" />
                             <div className="tip-font">个人简历</div>
                         </div>
-                        <div className="tip" style={{ top: '40px', left: '68px' }}  id="div2">
+                        <div className="tip" style={{ top: '40px', left: '68px' }} id="div2">
                             <div className="arrow" />
-                            <div className="tip-font">github</div>
+                            <div className="tip-font">
+                                github
+                            </div>
                         </div>
-                        <div className="tip" style={{ top: '40px', left: '128px' }}  id="div3">
+                        <div className="tip" style={{ top: '40px', left: '128px' }} id="div3">
                             <div className="arrow" />
-                            <div className="tip-font" style={{ width: '115px', top: '-83px', left: '-20px' }}>
+                            <div className="tip-font" style={{ width: '115px', top: '-79px', left: '-20px' }}>
                                 <img src={imgwx} alt="" style={{ width: '100px', height: '100px' }} />
                             </div>
                         </div>
-                        <div className="tip" style={{ top: '40px', left: '188px' }}  id="div4">
+                        <div className="tip" style={{ top: '40px', left: '188px' }} id="div4">
                             <div className="arrow" />
                             <div className="tip-font">csdn</div>
                         </div>

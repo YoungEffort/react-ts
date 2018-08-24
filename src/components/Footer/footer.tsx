@@ -5,7 +5,7 @@ class Footer extends React.Component {
     public render() {
         return (
             <footer>
-                <div>
+                <div style={{position: 'relative',top: '16px'}}>
                     <p>All Rights Reserved</p>
                     <p>
                         <span>版权所有</span> | <span>探索未知</span>
